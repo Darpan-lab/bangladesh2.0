@@ -280,8 +280,9 @@ nav h3{
 .card-box time{
     display: flex;
     justify-content: left;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.7);
 }
 .card-box img{
     margin-bottom: 12px;
