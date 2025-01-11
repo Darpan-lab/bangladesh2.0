@@ -4,11 +4,28 @@
     margin: 0;
     padding: 0;
 }
+::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+}
 body{
     background-color: rgb(245, 245, 245);
+}
+main{
     width: 85%;
     margin: auto;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+    margin-bottom: 14px;
+}
+nav h3{
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+}
+
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
@@ -370,7 +387,7 @@ body{
 .donate{
     margin:80px 0px;
 }
-.donate-input input, button{
+.donate-input input, .donate-input button{
     display: block;
 }
 .donate-input input{
@@ -382,4 +399,74 @@ body{
 }
 .donate-input button{
     margin: auto;
+}
+.input-area input, .input-area button{
+    display: block;
+    border: none;
+}
+.input-area{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px;
+}
+.input-area button{
+    border-radius: 0px 8px 8px 0px;
+    padding: 17px 34px;
+    background: rgb(0, 106, 80); 
+    color: rgb(255, 255, 255); 
+    font-size: 18px;
+}
+.input-area input{
+    border-radius: 8px 0px 0px 8px;
+    padding: 18px 40px;
+    font-size: 16px;
+    width: 55%;
+}
+.newsletter h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.newsletter p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    text-align: center;
+    width:71%;
+    margin:auto;
+}
+.newsletter{
+    padding: 80px 100px; 
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin-bottom: 80px;
+}
+footer{
+    padding: 35px 0px;
+    background: rgb(255, 255, 255);
+}
+footer h1{
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+    padding: 30px;
+}
+.footer-container{
+    width:70%;
+    margin: auto;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-top: 30px;
+}
+.footer-icon img{
+    cursor: pointer;
+}
+.btn-sign-in{
+    padding: 15px 30px;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+    font-size: 18px;
 }
