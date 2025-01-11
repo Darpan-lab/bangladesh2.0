@@ -19,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 24px 0px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
 }
 nav h3{
     color: rgb(14, 14, 14);
@@ -95,7 +95,7 @@ nav h3{
 }
 .hero-title{
     color: rgb(14, 14, 14);
-    font-size: 55px;
+    font-size: 50.5px;;
     margin-bottom: 24px;
 }
 .hero{
@@ -120,7 +120,6 @@ nav h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     gap: 24px;
 }
 .pillars-of-bd-box{
@@ -128,7 +127,8 @@ nav h3{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
-    width: 19%;
+    width: 302px;
+    height: 244px;
 }
 .pillars-of-bd-box h3{
     font-size: 20px;
@@ -158,11 +158,14 @@ nav h3{
 .theVision-box{
     padding: 32px;
     border-radius: 16px;
+    width: 411px;
+    height: 269px;
 } 
 .theVision-container{
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    align-items: center;
 }
 .theVision-box img{
     margin-bottom: 24px;
@@ -197,8 +200,7 @@ nav h3{
 .quote-bg-img{
     background-image: url("/assets/quote-bg.png");
     background-repeat: no-repeat;
-    padding-top: 27px;
-    background-origin: padding-box;
+    padding-top: 26px;
 }
 .quote h3{
     color: rgba(14, 14, 14, 0.8);
