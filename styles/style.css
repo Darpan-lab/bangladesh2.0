@@ -138,14 +138,11 @@ body{
 .hero{
     display: flex;
     justify-content: center;
-    /* width: 80.5%; */
     align-items: center;
-    /* margin: auto; */
     background: rgb(198, 228, 214);
     padding: 50px;
     border-radius: 24px;
     gap:20px;
-    /* flex-wrap: wrap; */
 }
 .pillars-of-bd{
     margin-top: 80px;
@@ -250,9 +247,14 @@ body{
     font-size: 20px;
     margin-bottom: 4px;
 }
+.opinion{
+    margin-top: 80px;
+}
 .opinion-title{
     text-align: left;
     width: 78%;
+    font-size: 16px;
+    color: rgb(14, 14, 14);
 }
 .opinion-value{
     text-align: center;
@@ -282,6 +284,102 @@ body{
     font-size: 20px;
     background-color: rgb(198, 228, 214);
 }
-.opinion-head .opinion-value{
-
+.opinion h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+.card-box{
+    display: flex;
+    gap: 32px;
+    justify-content: left;
+    align-items: center;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.card-box h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+.card-box time{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+.card-box img{
+    margin-bottom: 12px;
+}
+.card-box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.card-box button{
+    padding: 13px 26px;
+}
+.card-box-thumb{
+    border-radius: 24px;
+}
+.card-title{
+    margin-bottom: 32px;
+    margin-top: 80px;
+}
+.card-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.card-title p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.donate-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.donate-title p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.donate-quantity{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+.donate-box{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 40px;
+}
+.donate{
+    margin:80px 0px;
+}
+.donate-input input, button{
+    display: block;
+}
+.donate-input input{
+    width: 85%;
+    margin: 32px auto;
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+}
+.donate-input button{
+    margin: auto;
 }
