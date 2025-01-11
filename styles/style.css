@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 245, 245);
+    width: 85%;
+    margin: auto;
+}
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+  
+.fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+  
+.fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+}
+  
+.fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+}
+  
+.fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+  
+.fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+}
+  
+.fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+  
+.fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+  
+.fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+  
+.fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.btn-main{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.hero-subtitle{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.hero-title{
+    color: rgb(14, 14, 14);
+    font-size: 55px;
+    margin-bottom: 24px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    /* width: 80.5%; */
+    align-items: center;
+    /* margin: auto; */
+    background: rgb(198, 228, 214);
+    padding: 50px;
+    border-radius: 24px;
+    gap:20px;
+    /* flex-wrap: wrap; */
+}
+.pillars-of-bd{
+    margin-top: 80px;
+
+}
+.pillars-of-bd-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.pillars-of-bd-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+
+}
+.pillars-of-bd-box{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    width: 19%;
+}
+.pillars-of-bd-box h3{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.pillars-of-bd-box img{
+    margin-bottom: 24px;
+}
+.pillars-of-bd-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.theVision-title{
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+.theVision-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.theVision-title p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.theVision{
+
+}
+.theVision-box{
+    padding: 32px;
+    border-radius: 16px;
+} 
+.theVision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.theVision-box img{
+    margin-bottom: 24px;
+}
+.theVision-box h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin-bottom: 12px;
+
+}
+.theVision-box p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.theVision-container button{
+    padding: 11px 20px 11px 20px;
+    font-size: 16px;
+}
+.quote{
+    margin-top: 32px;
+    padding: 30px 24px 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.quote p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.quote-bg-img{
+    background-image: url("/assets/quote-bg.png");
+    background-repeat: no-repeat;
+    padding-top: 27px;
+    background-origin: padding-box;
+}
+.quote h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.opinion-title{
+    text-align: left;
+    width: 78%;
+}
+.opinion-value{
+    text-align: center;
+}
+.opinion table{
+    background: rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 100%;
+}
+.opinion td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+.opinion select{
+    padding: 10px 14px;
+    background: rgb(198, 228, 214);
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+}
+.opinion-container{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 32px;
+}
+.opinion-head .opinion-title, .opinion-head .opinion-value{
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    background-color: rgb(198, 228, 214);
+}
+.opinion-head .opinion-value{
+
+}
